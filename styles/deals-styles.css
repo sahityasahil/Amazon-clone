@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kanit&family=Libre+Baskerville:wght@700&family=Montserrat:wght@600&family=Noto+Serif:wght@500&family=Roboto+Slab:wght@500&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+.border {
+    border: 1.25px solid transparent;
+}
+
+.border:hover {
+    cursor: pointer;
+    border: 1.25px solid white;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background: url("../images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* box2 */
+.address {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 18px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 7px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+.searchbar {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    width: 800px;
+}
+
+.search-select {
+    background-color: rgba(255, 255, 255, 0.911);
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.search-input {
+    border: 2.5px solid transparent;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.search-input:hover {
+    border-color: yellow;
+}
+
+.search-icon {
+    background-color: rgb(255, 217, 0);
+    width: 45px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+    background-color: rgb(228, 199, 30);
+}
+
+.search-icon i {
+    color: #0f1111;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+/* box4 */
+span {
+    font-size: 0.75rem;
+}
+
+.nav-second-element {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* .sign-in {
+    /* width: 130px;
+    height: 50px;
+} */
+
+.returns {
+    width: 80px;
+    height: 50px;
+    padding-top: 4.25px;
+}
+
+/* box5 */
+
+.nav-cart-element {
+    height: 50px;
+    width: 80px;
+    padding: 10px;
+}
+
+.nav-cart-element i {
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.nav-cart-element a {
+    text-decoration: none;
+    color: #f5f6f6;
+}
+
+.nav-cart-element span {
+    color: rgb(228, 199, 30);
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+/* panel-under-navbar */
+.panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 17px;
+    padding-right: 17px;
+    height: 40px;
+    background-color: #0f1111;
+    opacity: 0.85;
+    color: white;
+}
+
+.panel-options {
+    width: 70%;
+    font-size: 0.9rem;
+}
+
+.panel-options a {
+    text-decoration: none;
+    color: white;
+    /* margin-left: 15px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.panel-deals {
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.product-shopping {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    /* background: url("../images/products/6-piece-white-dinner-plate-set.jpg");
+    background-size: cover; */
+    padding: 10px;
+    border: 0.5px solid rgba(211, 211, 211, 0.594);
+    width: 20%;
+    height: 400px;
+}
+
+.product-img img {
+    padding: 13px;
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+}
+
+.product-name p {
+    text-align: left;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+}
+
+.product-rating img {
+    height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.product-rating p {
+    color: rgba(31, 153, 194, 0.945);
+    font-size: 1rem;
+    margin-left: 8px;
+}
+
+.product-price p {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.addtocart-btn {
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(255, 217, 0);
+    height: 30px;
+    width: 70%;
+    position: relative;
+    /* margin: 0 auto; */
+    margin-left: 40px;
+    margin-top: 45px;
+    /* left: 40px;
+    top: 50px; */
+}
+
+.addtocart-btn:hover {
+    cursor: pointer;
+    background-color: rgb(235, 200, 5);
+}
