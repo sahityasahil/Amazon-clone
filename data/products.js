@@ -2,7 +2,7 @@
 
 const products = [{
     productId: 1001,
-    image: '../images/products/6-piece-white-dinner-plate-set.jpg',
+    image: 'images/products/6-piece-white-dinner-plate-set.jpg',
     name: '6 piece white dinner plate set',
     rating: {
         stars: 4.0,
